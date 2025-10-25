@@ -1,0 +1,100 @@
+
+
+.ilk {
+
+    background-color: aqua;
+
+
+}
+
+#ilkin_id {
+
+    color:red;
+
+
+}
+
+.ana {
+
+    background-color: red;
+    width: 50px;
+
+}
+
+.ilkdiv {
+
+    background-color: orange;
+    margin:0 0 50px 0;
+    padding:20px 0 20px 0
+
+}
+
+.ilk_card img {
+    width:250px;
+    height: 200px;
+    object-fit: cover;
+
+}
+.ilk_card{
+    width: 250px;
+    background-color: chocolate;
+    text-align: center;
+    padding:10px 10px 20px 10px;
+    color:white;
+    display: inline-block;
+    margin:0 0 0 10px;
+}
+
+.yazi {
+
+text-align: left;
+
+}
+
+
+ul>li{
+
+     width: 250px;
+    background-color: chocolate;
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+
+}
+ul>li>img {
+
+width: 250px;
+
+}
+
+.kir{
+
+
+    background-color: red;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    display: inline-block;
+    margin-top:100px;
+    text-align:center;
+     
+ 
+}
+
+.mavi{
+
+    background-color: blue;
+    height: 50px;
+    width: 30%;
+
+
+}
+
+.text_color {
+
+    color:#00ffa2
+
+
+}
+
+#den 
