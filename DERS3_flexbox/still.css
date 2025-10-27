@@ -1,0 +1,36 @@
+.ana {
+    display: flex;
+    justify-content:center ;
+    justify-content: space-between;
+  
+    flex-direction: column;
+    height: 100vh;
+   
+}
+
+
+.mavi,.kirmizi,.yesil {
+
+    width: 200px;
+    height: 100px;
+ 
+
+}
+
+
+
+.mavi {
+
+    background-color: blue;
+}
+.kirmizi {
+
+
+    background-color: red;
+}
+
+.yesil{
+
+
+    background-color: seagreen;
+}
