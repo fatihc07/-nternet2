@@ -1,0 +1,105 @@
+body{
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.menu {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+.orta {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    
+
+}
+.orta_foto{
+
+ 
+    
+
+} 
+
+
+.orta_yazi {
+
+    width: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+ 
+}
+span{
+
+    color:green;
+    background-color: orangered ;
+
+}
+
+.orta_yazi button {
+
+    padding: 10px;
+    background-color: goldenrod;
+    color:white;
+    border:none;
+
+
+}
+
+.orta_yazi button:hover{
+
+    background-color: seagreen;
+
+}
+
+
+.menusag a {
+
+text-decoration: none;
+padding: 20px;
+
+color:grey;
+
+}
+
+.menusol a:hover{
+
+    border-bottom: 3px solid black;
+
+}
+
+.menusag a:hover{
+
+    color:black;
+
+}
+
+.menusol a{
+    color:blueviolet;
+    text-decoration: none;
+
+}
+
+
+footer {
+
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.footer_span{
+
+    background-color: black;
+    color:white
+
+}
