@@ -1,0 +1,113 @@
+.kartlar{
+
+    display: flex;
+    gap:20px;
+    justify-content: center;
+
+
+
+
+}
+
+.kart{
+   
+    width: 300px;
+    box-shadow: 2px 2px 2px rgb(231, 231, 231);
+    border-radius: 15px;
+    
+}
+
+.kart:hover{
+
+    transform: scale(1.05);
+    transition: all 1.0s ease-in-out;
+    
+
+}
+
+
+.renk{
+
+    background-color: yellowgreen;
+    height: 150px;
+
+}
+.renk h1{
+
+    text-align: center;
+
+}
+
+.kart h2{
+
+    color:green;
+    margin-top: 30px;
+
+
+}
+
+.icerik{
+
+    padding: 20px;
+
+}
+
+.icerik button {
+
+    background-color: green;
+    border-radius: 10px;
+    color:white;
+    text-align: center;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.icerik button:hover {
+
+    background-color: yellow;
+    color:black;
+    transition: all 1.5s ease-in-out;
+}
+
+.koltuk_ana{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.koltuk_ana img{
+    height: 100%;
+    width: 100%;
+       position: absolute;
+    z-index: 500;
+}
+
+.sol_yazi,.sagkutular{
+
+    z-index: 501;
+
+  
+}
+
+.sagkutu{
+
+background-color: whitesmoke;
+padding: 10px;
+width: 200px;
+text-align: center;
+ gap:20px;
+
+}
+.sagkutular{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.sagkutular{
+
+    max-width: 500px;
+
+}
