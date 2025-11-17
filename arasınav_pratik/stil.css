@@ -1,0 +1,84 @@
+body {
+  padding: 0;
+  margin: 0;
+  top: 0;
+  background-color: aliceblue;
+}
+
+.menu_ana {
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  padding: 0 20px 0 20px;
+}
+p,
+a {
+  color: white;
+  text-decoration: none;
+}
+.sag a {
+  padding: 15px;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+}
+
+.kart_renk {
+  background-color: greenyellow;
+  height: 200px;
+}
+
+.kartlar_ana {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.kart {
+  width: 300px;
+  border: 1px solid grey;
+}
+
+.kart_yazi {
+  text-align: center;
+  background-color: white;
+}
+
+.kart_yazi button {
+  background-color: blueviolet;
+  padding: 5px 15px 5px 15px;
+  color: white;
+  font-size: 18px;
+  border-style: none;
+  border-color: none;
+  margin-bottom: 20px;
+}
+
+.form_ana {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.form {
+  background-color: white;
+  width: 700px;
+  padding: 50px;
+}
+.form input,
+.form textarea,
+.form button {
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+}
+
+.form button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+}
