@@ -1,0 +1,41 @@
+.navbar {
+  background-color: blue;
+}
+
+.carousel {
+  height: 500px;
+}
+
+.carousel img {
+  height: 500px;
+  position: absolute;
+  width: 100%;
+}
+
+.kartlar {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+}
+.resim {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  overflow: hidden;
+}
+.navbar {
+  background-color: transparent;
+  color: white;
+}
+.navbar-brand {
+  color: white;
+}
+
+.resim img {
+  width: 300vh;
+  height: 500px;
+}
+.yazi {
+  height: 50vh;
+}
