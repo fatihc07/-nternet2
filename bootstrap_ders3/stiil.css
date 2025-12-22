@@ -1,0 +1,84 @@
+.navbar {
+  background-color: blue;
+}
+
+.carousel {
+  height: 500px;
+}
+
+.carousel img {
+  height: 500px;
+  position: absolute;
+  width: 100%;
+}
+
+.kartlar {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+}
+.resim {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  overflow: hidden;
+}
+.navbar {
+  background-color: transparent;
+  color: white;
+}
+.navbar-brand {
+  color: white;
+}
+
+.resim img {
+  width: 300vh;
+  height: 500px;
+}
+.yazi {
+  height: 50vh;
+}
+.team_card img {
+  width: 150px;
+  height: auto;
+}
+.card-body img {
+  width: 50px;
+}
+
+@media (max-width: 576px) {
+  .markalar {
+    text-align: center;
+    border: 3px solid red;
+  }
+
+  .footer_logolar img {
+    width: 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .markalar {
+    display: none;
+    border: 5px solid green;
+  }
+}
+
+.iletisim img {
+  width: 1000px;
+}
+
+.iletisim form {
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.4);
+  padding: 50px;
+  z-index: -1;
+}
+
+.footer_logolar img {
+  width: 100px;
+}
+
+.footer_logolar a:hover {
+  border: 3px solid green;
+}
